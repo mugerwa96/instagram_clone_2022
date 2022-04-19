@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navigation_bar avator */
+
+.avator img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none!important
+  }
+
+  .navbar-brand{
+      font-family:Chiller;
+      font-weight: bold;
+      font-size: 1.5rem;
+  }
+  .navbar.bg-light{
+      background:#fff!important
+  }
+  body{
+      background:rgba(247, 245, 245, 0.459);
+  }
+/* navigation_bar avator */
+
+
+
+
+/* currently active */
+.user-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    
+}
+.currently_active .user-one img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background:linear-gradient(45deg,rgb(255, 1, 1),rgb(255, 255, 0),rgb(226, 23, 23));
+    padding: 2px;
+  
+}
+.name{
+    font-size: 12px;
+    font-weight: 500;
+}
+#content{
+    overflow: hidden;
+    position: relative;
+}
+.currently_active.bg-light{
+    background:#fff!important;
+    border-radius:3px
+}
+.currently_active{
+    display: flex;
+    justify-content: left;
+    overflow-x: scroll;
+  
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* currently active */
+
+
+
+/* card-post */
+.card-post{
+    width: 540px;
+    height: 600px;
+    position: relative;
+    background:#ffff;
+    border-radius:3px
+}
+.header-section{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.header-img{
+    position: absolute;
+    top:70%;
+    left:13%;
+    transform: translate(-50%,-50%);
+    width:50%;
+
+}
+.header-section img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.more{
+    position: absolute;
+    top:50%;
+   right:3%;
+
+}
+
+.header-image img{
+    position:absolute;
+    width: 100%;
+    height: 70%;
+    object-fit:cover;
+    top:10%
+}
+.post-icons{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ioc{
+    position: absolute;
+    bottom:80%;
+    left:5%;
+}
+.body-section{
+    position: absolute;
+    width: 100%;
+    height:30%;
+    bottom:1%;
+    background:#ffff;
+ 
+}
+.tag{
+    position:absolute;
+    right:2%;
+    bottom:80%;
+}
+
+.liked{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.liked-image img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:60%;
+    left:5%;
+}
+.liked-image .content{
+    position: absolute;
+    bottom:50%;
+    left:12%;
+}
+.message{
+    position: absolute;
+    bottom:13%;
+    left:5%;
+}
+/* card-post */
+
+
+/* feeds */
+.head-feed img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+ ;
+}
+.head-feed-img{
+    flex-basis: 45%
+}
+.head-feed-content{
+    flex-basis: 50%;
+    align-items: left;
+}
+
+
+/* suggest for you */
+.suggestions{
+    display: flex;
+    font-size: 12px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.suggestions-p{
+    flex-basis:20%;
+}
+.See_all{
+    flex-basis: 60%;
+    width: 100%;
+}
+
+.user-ones .user-im img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.user-ones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.all{
+    justify-content: space-between;
+}
+/* suggest for you */

@@ -1,0 +1,40 @@
+@media screen and (max-width:768px)
+{
+    .detials
+    {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .detials .address
+    {
+        flex-direction: column;
+    }
+    header .navbar 
+    {
+        z-index: 1;
+    }
+    header .header-content 
+    {
+        left:-10%;
+        
+        
+    }
+    header{
+        height:90vh;
+    }
+    header .header-content  hr{
+
+        font-size:2rem;
+    }
+    header .header-content h1{
+        font-size:2rem;
+    }
+    
+    .header-content
+    {
+        text-align: center;
+        font-size: 1.3rem;
+        /* margin-left: 35px; */
+    }
+}
